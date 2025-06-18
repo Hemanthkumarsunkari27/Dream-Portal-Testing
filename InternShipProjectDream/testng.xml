@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="DreamProtalTests">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.Dream.tests.TC_03_VerifySummaryStats"/>
+      <class name="com.Dream.tests.TC_01_VerifyHomePage"/>
+      <class name="com.Dream.tests.TC_02_VerifyDiaryEntries"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- DreamProtalTests -->

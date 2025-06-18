@@ -1,0 +1,4 @@
+com\Dream\tests\TC_01_VerifyHomePage.class
+com\Dream\tests\TC_02_VerifyDiaryEntries.class
+com\Dream\base\BaseTest.class
+com\Dream\tests\TC_03_VerifySummaryStats.class

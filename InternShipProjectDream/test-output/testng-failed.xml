@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [DreamProtalTests]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.Dream.tests.TC_03_VerifySummaryStats">
+        <methods>
+          <include name="setup"/>
+          <include name="verifyDreamCountConsistency"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.Dream.tests.TC_03_VerifySummaryStats -->
+      <class name="com.Dream.tests.TC_02_VerifyDiaryEntries">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="verifyDreamLogTable"/>
+        </methods>
+      </class> <!-- com.Dream.tests.TC_02_VerifyDiaryEntries -->
+      <class name="com.Dream.tests.TC_01_VerifyHomePage">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="verifyDreamPortalHome"/>
+        </methods>
+      </class> <!-- com.Dream.tests.TC_01_VerifyHomePage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [DreamProtalTests] -->
