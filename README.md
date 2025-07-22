@@ -1,4 +1,4 @@
-# InternShipProjectDream
+# Dream Portal – QA Automation Testing
 
 ## Project Overview
 InternShipProjectDream is an **automation testing framework** developed using **Selenium + Java** with the **Page Object Model (POM)** design pattern. This project focuses on functional test automation for the **Dream Portal** application, ensuring reliability, accuracy, and maintainability.
